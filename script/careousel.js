@@ -47,6 +47,8 @@ Careousel.prototype.showImg = function (pos, lis, spanAlls){
     lis[pos].className = 'show';
     spanAlls[pos].className = 'active';
 };
+
+//给多个轮播图绑定事件
 var cares = document.querySelectorAll('.carousel');
 for (var l = 0; l < cares.length; l++){
     var aaa = new Careousel(cares[l]);
