@@ -6,25 +6,28 @@
     <link href="css/page.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="content"></div>
     <div class="page">
         <ul>
             <li class="default prev disabled"><a href="javascript:void(0);" title="Prev"><em class="arrPrev"></em><span>上一页</span></a></li>
-            <li class="default active"><a href="javascript:void(0);" title="1">1</a></li>
-            <li class="default"><a href="javascript:void(0);" title="2">2</a></li>
-            <li class="default"><a href="javascript:void(0);" title="3">3</a></li>
-            <li class="default"><a href="javascript:void(0);" title="4">4</a></li>
-            <li class="default"><a href="javascript:void(0);" title="5">5</a></li>
-            <li class="default"><a href="javascript:void(0);" title="6">6</a></li>
-            <li class="default"><a href="javascript:void(0);" title="7">7</a></li>
-            <li class="default"><a href="javascript:void(0);" title="8">8</a></li>
             <li class="default next"><a href="javascript:void(0);" title="Next"><span>下一页</span><em class="arrNext"></em></a></li>
         </ul>
         <div class="pageInfo">
-            <span>共100页，到第</span>
-            <input type="number" value="2" min="1" id="txtPage" />
+            <span>共<span class="pageCounts">100</span>页，到第</span>
+            <input type="number" value="2" min="1" class="txtPage" />
             <span>页</span>
-            <span id="btnOk">确定</span>
+            <span class="btnOk">确定</span>
+        </div>
+    </div>
+    <div class="page">
+        <ul>
+            <li class="default prev disabled"><a href="javascript:void(0);" title="Prev"><em class="arrPrev"></em><span>上一页</span></a></li>
+            <li class="default next"><a href="javascript:void(0);" title="Next"><span>下一页</span><em class="arrNext"></em></a></li>
+        </ul>
+        <div class="pageInfo">
+            <span>共<span class="pageCounts">100</span>页，到第</span>
+            <input type="number" value="2" min="1" class="txtPage" />
+            <span>页</span>
+            <span class="btnOk">确定</span>
         </div>
     </div>
 <script src="script/page.js" type="text/javascript"></script>
