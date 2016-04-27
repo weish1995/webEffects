@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgWrap{
+    margin: 50px 200px;
+}
+.imgEnl{
+    width: 500px;
+    height: 400px;
+}
+.seleZone{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    cursor: move;
+    background-image: url('../imgs/enLargeBg.png');
+}
+.large{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+.show{
+    visibility: visible;
+    z-index: 4;
+}
+.hide{
+    visibility: hidden;
+    z-index: -1;
+}
